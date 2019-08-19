@@ -20,6 +20,7 @@ import bioPortableText from './objects/bioPortableText'
 import bodyPortableText from './objects/bodyPortableText'
 import eventReference from './objects/eventReference'
 import personReference from './objects/personReference'
+import social from './objects/social'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -35,7 +36,7 @@ export default createSchema({
     person,
     venue,
     session,
-
+    social,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     schedule,
